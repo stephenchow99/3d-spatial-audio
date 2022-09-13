@@ -53,7 +53,7 @@ Sound.prototype = {
 
       // Schedule the next clap.
       this.thunder();
-    }.bind(this), 0));
+    }.bind(this), 1000));
   },
 
   /**
